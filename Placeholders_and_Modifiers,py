@@ -1,1 +1,5 @@
-
+titution_free = 3180
+t = f"the semister free in CSTU is {titution_free}"
+t = f"the semister free in CSTU is {titution_free:.2f}"
+t = f"the semister free in CSTU is {titution_free:.6f}"
+print(t)
