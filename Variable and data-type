@@ -1,0 +1,9 @@
+name="Rakibul hassan"
+age=21
+roll=26
+cgpa=3.17
+
+print("The name is "+name)
+print("My age is " ,+age)
+print("MY Roll number is ",+roll)
+print("MY CGPA number is ",+cgpa)
