@@ -1,1 +1,9 @@
-
+from math import*
+print("This is max function:"+str(max(20,10)))
+print("This is min function:"+str(min(20,10)))
+print("This is abs function:"+str(abs(-3)))
+print("This is power function:"+str(pow(2,3)))
+print("This is sqrt function:"+str(sqrt(25)))
+print("This is round function:"+str(round(3.2)))
+print("This is floor function:"+str(floor(3.7)))
+print("This is ceil function:"+str(ceil(3.7)))
