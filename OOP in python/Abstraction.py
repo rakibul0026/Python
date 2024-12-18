@@ -6,7 +6,6 @@ class Shape(ABC):
         self.base = base
         self.height = height
 
-    @abstractmethod
     def calculate_area(self):
         pass  # Abstract method with no implementation
 
@@ -16,11 +15,10 @@ class Triangle(Shape):
         area = 0.5 * self.base * self.height
         print("The area of the Triangle is: " + str(area))
 
-# Input values
+
 base = float(input("Enter the base value: "))
 height = float(input("Enter the height value: "))
 
-# Object creation
 triangle = Triangle(base, height)
 triangle.calculate_area()
 
