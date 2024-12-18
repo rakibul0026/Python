@@ -1,3 +1,4 @@
+#class and object
 class student:
      name="Rakib"
      id="B210101026"
