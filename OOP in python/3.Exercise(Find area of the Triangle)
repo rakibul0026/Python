@@ -1,0 +1,12 @@
+class Triangle:
+    def __init__(self,base,height):
+        self.base=base
+        self.height=height
+    def calculate_area(self):
+        area=.5*self.base*self.height
+        print("The area of the Triangle is:"+str(+area))
+
+base=float(input("Enter the base value:"))
+height=float(input("Enter the height value:"))
+ob=Triangle(base,height)
+ob.calculate_area()
